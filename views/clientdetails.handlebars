@@ -1,0 +1,9 @@
+<h1>{{client.first_name}} {{client.last_name}}  [{{client.id}}]</h1>
+<ul class="list-group">
+  <li><strong>Email:</strong> {{client.email}}</li>
+  <li><strong>Phone:</strong> {{client.phone}}</li>
+</ul>
+<a class="btn btn-default pull-left"href="/">Back</a>
+<form class="" action="/client/delete/{{client.id}}?_method=DELETE" method="post">
+  <input type="submit" class="btn btn-danger pull-right" value="Delete">
+</form>

@@ -1,0 +1,24 @@
+{
+  "name": "rest-node-redis",
+  "version": "1.0.0",
+  "description": "simple rest node and redis tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "redis",
+    "node",
+    "express"
+  ],
+  "author": "Michel Truyenque",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "redis": "^2.8.0"
+  }
+}
